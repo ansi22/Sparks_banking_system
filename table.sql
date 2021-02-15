@@ -49,9 +49,6 @@ INSERT INTO `customer` (`id`, `name`, `email`, `balance`) VALUES
 (1008, 'Subhadra Singh', 'subhu11@gmail.com', 5400),
 (1009, 'Tanya Srivastava', 'tan30@gmail.com', 7810),
 (1010, 'Vaishnavi Singh', 'vaish22@gmail.com', 9016);
-COMMIT;
-
-*/;
 
 --
 -- Database: `spark`
@@ -77,7 +74,7 @@ INSERT INTO `tranhis` (`sender`, `receiver`, `balance`) VALUES
 ('Manya Rai', 'Aditi Dwivedi', 700),
 ('Vaishnavi Singh', 'Subhadra Singh', 1000),
 ('Muskan Sethi', 'Tanya Soni', 1200);
-COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
