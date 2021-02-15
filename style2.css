@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+body{
+  background-image: linear-gradient(rgba(0,18,51,0.5),rgba(0,18,51,0.5)), url(coinb.jpg);
+  font-family: 'Flamenco', cursive;}
+.left{
+  width: 30%;
+}
+.right{
+  width: 70%;
+}
+.logo{
+    height: 40px;}
+.menu{
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.7);
+    margin: 0px;
+    padding: 0px;}
+  li {
+    float: right; }
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none; }
+  li a:hover {
+    background-color:#2d75bd;
+  }
+  .active{
+      background-color:#0466c8;}
+  .text{
+    color:#0466c8;
+    line-height: 12px;
+    margin-left:10px; }
+
+ 
+ h2,h4{
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(0, 18, 51,0.7);
+  padding: 4px;
+}
+table,th,td{
+  border: 1px solid black;
+  padding: 4px;
+ border-collapse: collapse;
+ font-size:large;
+  text-align: center;
+  color: #ffffff;
+}
+.tbl{
+ /* margin-top: 10px;
+ // margin-left: 100px;*/
+  width: 90%;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+th{
+  background-color:rgba(0,18,51,0.9);
+}
+tr:nth-child(even){
+  background-color: rgba(4, 102, 200,0.9);
+}
+tr:nth-child(odd){
+  background-color:rgba(2, 62, 120,0.9);
+}
+tr:nth-child(even):hover{
+  background-color: rgba(8, 24, 39, 0.9);
+}
+tr:nth-child(odd):hover{
+  background-color: rgba(8, 24, 39, 0.9);
+}
+.button{
+   background-color: rgb(189,189,189);
+   color:rgb(2, 62, 120);
+   border:1px solid rgb(2,62,120);
+   border-radius: 2rem;
+   padding: 4px;
+   font-weight: bold;
+}
+.hghlt{
+  /*margin-top: 200px;
+  margin-left: 600px;
+   min-height: 25vh;*/
+   margin-top: 15%;
+   margin-left: auto;
+   margin-right: auto;
+   width: 45vh ;
+   border: 1px solid black;
+   border-radius: 2rem;
+   background-color:rgba(0,18,51,0.7);
+  
+}
+.ye{
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left:60px ;
+}
+#img{
+   height:80px;
+   width:80px;
+   margin-left: 110px;
+   margin-top: 20px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  
+  .menu ul{
+  float:left;
+  }
+  
+}
