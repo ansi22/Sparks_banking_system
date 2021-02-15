@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+body{
+    background-image: linear-gradient(rgba(0,18,51,0.5),rgba(0,18,51,0.5)), url(coinb.jpg);
+    font-family: 'Flamenco', cursive;}
+    .left{
+      width: 50%;
+    }
+    .right{
+      width: 50%;
+    }
+.logo{
+    height: 40px;}
+    .menu{
+      overflow: hidden;
+      background-color:rgba(0,0,0,0.7);
+      margin: 0px;
+      padding: 0px;}
+    li {
+      float: right; }
+    li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 18px;
+      text-decoration: none; }
+    li a:hover {
+      background-color:#2d75bd;
+    }
+    
+  .active{
+      background-color:#0466c8;}
+  .text{
+    color:#0466c8;
+    line-height: 12px;
+    margin-left:10px; }
+  .content{
+    width:1180;
+    position: absolute;
+    top:50%;
+    left:47%;
+    transform: translate(-50%,-50%);
+    color:#ffffff;
+    font-size:160%;
+    word-spacing: 3px;
+    margin-bottom:20px;
+    text-transform:uppercase;}
+.wel{
+    color:#0466c8;
+    border-left: 5px solid #0466c8 ;
+    padding-left: 6px;
+    font-size:115%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+
+  .menu ul{
+    float:left;
+  }
+  
+}
