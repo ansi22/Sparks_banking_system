@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2021 at 01:30 PM
+-- Generation Time: Feb 15, 2021 at 03:20 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -39,20 +39,16 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`id`, `name`, `email`, `balance`) VALUES
-(1001, 'Tanya Soni', 'tan29@gmail.com', 6280),
-(1002, 'Muskan Sethi', 'musk27@gmail.com', 7659),
-(1003, 'Manya Rai', 'man30@gmail.com', 9835),
-(1004, 'Aditi Dwivedi', 'aditi31@gmail.com', 4500),
+(1001, 'Tanya Soni', 'tan29@gmail.com', 7480),
+(1002, 'Muskan Sethi', 'musk27@gmail.com', 6459),
+(1003, 'Manya Rai', 'man30@gmail.com', 9135),
+(1004, 'Aditi Dwivedi', 'aditi31@gmail.com', 5200),
 (1005, 'Ankur Kushwaha', 'ankur20@gmail.com', 5087),
 (1006, 'Reetika Sahu', 'reet03@gmail.com', 6800),
 (1007, 'Ritika Verma', 'riti22@gmail.com', 6200),
-(1008, 'Subhadra Singh', 'subhu11@gmail.com', 5400),
+(1008, 'Subhadra Singh', 'subhu11@gmail.com', 6400),
 (1009, 'Tanya Srivastava', 'tan30@gmail.com', 7810),
-(1010, 'Vaishnavi Singh', 'vaish22@gmail.com', 9016);
-
---
--- Database: `spark`
---
+(1010, 'Vaishnavi Singh', 'vaish22@gmail.com', 8016);
 
 -- --------------------------------------------------------
 
@@ -74,7 +70,7 @@ INSERT INTO `tranhis` (`sender`, `receiver`, `balance`) VALUES
 ('Manya Rai', 'Aditi Dwivedi', 700),
 ('Vaishnavi Singh', 'Subhadra Singh', 1000),
 ('Muskan Sethi', 'Tanya Soni', 1200);
-
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
