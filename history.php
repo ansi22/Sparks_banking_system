@@ -29,7 +29,7 @@
                 <li style="float: left"><h3 class="text">SPARKS BANKING</h3></li>
                 <li style="float:left"><img src="piggy-bank.png" class="logo"></li>
                 <ul>
-                <li><a href="#"class ="active" >TRANSACTION</a></li>
+                <li><a href="#"class ="active" >TRANSACTION HISTORY</a></li>
                 <li><a href="customer.php">CUSTOMERS</a></li>
                 <li><a href="index.html">HOME</a></li>
                 </ul>
