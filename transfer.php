@@ -1,7 +1,7 @@
 <?php 
 
 	
-$con=mysqli_connect("localhost","root","","spark");
+$con=mysqli_connect("localhost","id16166686_root","(*wTu6BKPXdUl#=}","id16166686_spark");
             
 if(!$con){
 	die("connection to this daatabase failed due to".mysqli_connect_error());
@@ -43,7 +43,7 @@ if(!$con){
                 <ul>
                 <li><a href="history.php" >TRANSACTION</a></li>
                 <li><a href="#"class ="active">CUSTOMERS</a></li>
-                <li><a href="home.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 </ul>
                 </div>
   	
