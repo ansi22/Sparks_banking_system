@@ -24,15 +24,8 @@ if(!$con){
    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-		<title>TRANSACTION HISTORY</title>
+		<title>TRANSACTION</title>
     <link rel="stylesheet" href="style2.css">
-        <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
-	</head>
-<body>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-		<title>MONEY TRANSACTION</title>
-		<link rel="stylesheet" href="rit1.css">
         <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
 	</head>
 <body>
@@ -41,7 +34,7 @@ if(!$con){
                 <li style="float: left"><h3 class="text">SPARKS BANKING</h3></li>
                 <li style="float:left"><img src="piggy-bank.png" class="logo"></li>
                 <ul>
-                <li><a href="history.php" >TRANSACTION</a></li>
+                <li><a href="history.php" >TRANSACTION HISTORY</a></li>
                 <li><a href="#"class ="active">CUSTOMERS</a></li>
                 <li><a href="index.html">HOME</a></li>
                 </ul>
