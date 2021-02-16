@@ -1,5 +1,5 @@
 <?php 
-	$con=mysqli_connect("localhost","root","","spark");
+	$con=mysqli_connect("localhost","id16166686_root","(*wTu6BKPXdUl#=}","id16166686_spark");
             
 	if(!$con){
 		die("connection to this daatabase failed due to".mysqli_connect_error());
@@ -13,7 +13,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-		<title>MONEY TRANSACTION</title>
+		<title>TRANSACTION</title>
 		<link rel="stylesheet" href="style2.css">
         <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
 	</head>
@@ -25,7 +25,7 @@
                 <ul>
                 <li><a href="history.php" >TRANSACTION</a></li>
                 <li><a href="#"class ="active">CUSTOMERS</a></li>
-                <li><a href="home.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 </ul>
 </div>
 				<?php	if(isset($_POST['submit'])){
@@ -53,7 +53,6 @@ exit();
 	mysqli_query($con,$sub);	
 	$update = "INSERT INTO tranhis(`sender`, `receiver`, `balance`) VALUES('$from', '$to', $amount)";
 	mysqli_query($con,$update);
-}
 ?>
 <div class="hghlt">
 		<h3 class="ye">Successful Transaction !!
@@ -61,7 +60,9 @@ exit();
 		</h3>
 	    <img src="tick.png" id="img">
 	</div>
-<?php{?>
+<?php
+}
+?>
 	</body>
 	<div class="footer">
             <p>Developed by:Ritika Verma-(TSF-GRIPFEB-21)</p>
